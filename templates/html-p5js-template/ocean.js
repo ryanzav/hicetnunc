@@ -9,8 +9,8 @@ function setup_() {
 
 function draw_() {
     t += 1;
-    scale(1.1)
-    translate(-width * .05, 0)
+    scale(Math.sqrt((actual_width/1024)));
+    // translate(-actual_width * .05, 0)
     background(198, 20, 100);
     stroke(40, 30, 100);
     strokeWeight(100);
